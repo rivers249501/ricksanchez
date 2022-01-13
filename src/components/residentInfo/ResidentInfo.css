@@ -1,0 +1,84 @@
+
+body {
+  background: linear-gradient(to bottom, rgb(34, 30, 30) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed;
+  background: url('https://wallpaperforu.com/wp-content/uploads/2021/08/Wallpaper-Rick-Morty-Poster-Rick-And-Morty-Rick-Sanch12.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  
+}
+
+.card-resident {
+  background: rgb(12, 12, 12);
+  display: flex;
+  width: 300px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: $border-radius-size + 5;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 10px 30px -1px black;
+  
+}
+
+.card-resident>img {
+  position: relative;
+  height: 275px;
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+  border-top-left-radius: $border-radius-size;
+  border-top-right-radius: $border-radius-size;
+}
+
+.card-info {
+  height: 150%;
+  width: 100%;
+  color: white;
+  font-family: fantasy;
+  padding-left: 0px;
+}
+
+.status {
+    height: 0px;
+    display: flex;
+    align-items: center;
+   
+  
+}
+
+.btn-status1 {
+    margin-right: 0px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    padding-left: 0px;
+    border-radius: 50%;
+}
+
+.btn-status2{
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.btn-status3{
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: steelblue;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) {
+
+    .card-resident{
+        width: 60%;
+    }
+    
+}
+
+
+ 
